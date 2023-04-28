@@ -6,10 +6,11 @@
 //
 
 import SwiftUI
+import Foundation
 
 // MARK: - FORMATTER
 
-private let itemFormatter: DateFormatter = {
+public let itemFormatter: DateFormatter = {
     let formatter = DateFormatter()
     formatter.dateStyle = .short
     formatter.timeStyle = .medium
