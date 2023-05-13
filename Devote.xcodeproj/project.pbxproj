@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370D7D652A00C2A400DAA996 /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D7D642A00C2A400DAA996 /* NewTaskItemView.swift */; };
 		3715360329EF966000F3D17F /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3715360229EF966000F3D17F /* DevoteApp.swift */; };
 		3715360529EF966000F3D17F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3715360429EF966000F3D17F /* ContentView.swift */; };
 		3715360729EF966100F3D17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3715360629EF966100F3D17F /* Assets.xcassets */; };
@@ -17,10 +18,13 @@
 		3715361929EF9CD700F3D17F /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3715361629EF9CD700F3D17F /* sound-tap.mp3 */; };
 		3715361A29EF9CD700F3D17F /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3715361729EF9CD700F3D17F /* sound-ding.mp3 */; };
 		3715362929EFABDC00F3D17F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3715362829EFABDC00F3D17F /* Constant.swift */; };
+		372F08BA2A0F2866003CDA71 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F08B92A0F2866003CDA71 /* BlankView.swift */; };
+		376168E529FB6F1500895B9C /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376168E429FB6F1500895B9C /* BackgroundImageView.swift */; };
 		376C4C5729F3F12B0038F79D /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C4C5629F3F12B0038F79D /* HideKeyboardExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		370D7D642A00C2A400DAA996 /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
 		371535FF29EF966000F3D17F /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3715360229EF966000F3D17F /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
 		3715360429EF966000F3D17F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +37,8 @@
 		3715361729EF9CD700F3D17F /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		3715362329EF9E6A00F3D17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3715362829EFABDC00F3D17F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		372F08B92A0F2866003CDA71 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		376168E429FB6F1500895B9C /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		376C4C5629F3F12B0038F79D /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				3715360429EF966000F3D17F /* ContentView.swift */,
+				376168E429FB6F1500895B9C /* BackgroundImageView.swift */,
+				370D7D642A00C2A400DAA996 /* NewTaskItemView.swift */,
+				372F08B92A0F2866003CDA71 /* BlankView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,11 +221,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3715360C29EF966100F3D17F /* Persistence.swift in Sources */,
+				376168E529FB6F1500895B9C /* BackgroundImageView.swift in Sources */,
 				3715360529EF966000F3D17F /* ContentView.swift in Sources */,
 				376C4C5729F3F12B0038F79D /* HideKeyboardExtension.swift in Sources */,
+				372F08BA2A0F2866003CDA71 /* BlankView.swift in Sources */,
 				3715362929EFABDC00F3D17F /* Constant.swift in Sources */,
 				3715360F29EF966100F3D17F /* Devote.xcdatamodeld in Sources */,
 				3715360329EF966000F3D17F /* DevoteApp.swift in Sources */,
+				370D7D652A00C2A400DAA996 /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
