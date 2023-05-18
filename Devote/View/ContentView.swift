@@ -104,21 +104,14 @@ struct ContentView: View {
                     
                     List {
                         ForEach(items) { item in
-                            VStack(alignment: .leading, spacing: 4) {
-                                Text(item.task ?? "")
-                                    .font(.headline)
-                                    .fontWeight(.bold)
-                                Text(item.timestamp!, formatter: itemFormatter)
-                                    .font(.footnote)
-                                    .foregroundColor(.gray)
-                            }
+                            ListRowItemView(item: item)
                         }
                         .onDelete(perform: deleteItems)
                     } //: LIST
-                    .listStyle(PlainListStyle())
-                    .background(Color.clear)
+                    .listStyle(InsetGroupedListStyle())
+                    .listRowBackground(Color.clear)
+                    .cornerRadius(20)
                     .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.3), radius: 12)
-                    .padding(.vertical, 0)
                     .frame(maxWidth: 640)
                     .padding()
                     
