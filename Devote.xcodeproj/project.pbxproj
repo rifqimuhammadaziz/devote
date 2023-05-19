@@ -23,6 +23,7 @@
 		3734AA732A15DFEB007BAF4B /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3734AA722A15DFEB007BAF4B /* CheckboxStyle.swift */; };
 		376168E529FB6F1500895B9C /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376168E429FB6F1500895B9C /* BackgroundImageView.swift */; };
 		376C4C5729F3F12B0038F79D /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C4C5629F3F12B0038F79D /* HideKeyboardExtension.swift */; };
+		37BB36F02A17A64E0080B53C /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB36EF2A17A64E0080B53C /* SoundPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		3734AA722A15DFEB007BAF4B /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
 		376168E429FB6F1500895B9C /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		376C4C5629F3F12B0038F79D /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
+		37BB36EF2A17A64E0080B53C /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				3715362829EFABDC00F3D17F /* Constant.swift */,
+				37BB36EF2A17A64E0080B53C /* SoundPlayer.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				3715360F29EF966100F3D17F /* Devote.xcdatamodeld in Sources */,
 				3715360329EF966000F3D17F /* DevoteApp.swift in Sources */,
 				3734AA732A15DFEB007BAF4B /* CheckboxStyle.swift in Sources */,
+				37BB36F02A17A64E0080B53C /* SoundPlayer.swift in Sources */,
 				370D7D652A00C2A400DAA996 /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
